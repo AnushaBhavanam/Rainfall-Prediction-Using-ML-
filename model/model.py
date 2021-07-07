@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-rainfall_data=pd.read_csv("weatherAUS.csv")
+rainfall_data=pd.read_csv(".\weatherAUS.csv")
 rainfall_data.shape
 rainfall_data.info()
 rainfall_data.isna().sum()
